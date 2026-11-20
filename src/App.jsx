@@ -1,8 +1,20 @@
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
     <div className="container mt-5">
+      <div className="row mb-4">
+        <div className="col">
+          <button type="button" className="btn btn-primary w-100">
+            Primary color is #2a9d8f
+          </button>
+        </div>
+        <div className="col">
+          <button type="button" className="btn btn-secondary w-100">
+            Secondary color is #e76f51
+          </button>
+        </div>
+      </div>
       <div className="row">
         <div className="col">
           <div className="card">

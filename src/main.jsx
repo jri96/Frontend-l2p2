@@ -1,8 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// Bootstrap CSS geïnstalleerd via npm (geen CDN meer)
-import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App.jsx'
+
+// Bootstrap wordt nu via SASS geladen in App.scss,
+// daarom staat de losse bootstrap.min.css import hier niet meer.
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
